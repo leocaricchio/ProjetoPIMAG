@@ -25,49 +25,23 @@ A abordagem consiste em:
 ├── data/
 │   └── imagens/
 │       └── IMG-20260209-WA0013.jpg
-├── resultados/
-│   └── resultado_exemplo.png
 ├── apresentacao.md
 └── README.md
 ```
 
 * **notebooks/**: código da solução em Jupyter Notebook
 * **data/**: imagens utilizadas nos experimentos
-* **resultados/**: imagens geradas pelo algoritmo
+* **apresentacao/**: link para vídeo no youtube com a apresentação da solução
 
 ---
 
 ## Como Executar
 
-### Opção 1 – Google Colab
+### Google Colab
 
 Abra o notebook diretamente no Colab:
 
-(cole aqui o link do Colab)
-
-Certifique-se de que o caminho da imagem está definido como:
-
-```python
-arquivo_imagem = 'data/imagens/IMG-20260209-WA0013.jpg'
-```
-
----
-
-### Opção 2 – Localmente
-
-Instale as dependências:
-
-```bash
-pip install numpy matplotlib scikit-image
-```
-
-Execute o notebook:
-
-```
-notebooks/deteccao_jogadores.ipynb
-```
-
----
+https://colab.research.google.com/drive/1zUVjrqR6fIpAiv41_-o8lnBtvBMNdTWt?usp=sharing
 
 ## Técnicas Utilizadas
 
@@ -103,8 +77,8 @@ Link do YouTube (máx. 15 min):
 
 ---
 
-## Autor
+## Autores
 
-Nome do aluno
+Nomes: Felipe Ramos Santana e Leonardo Caricchio do Nascimento
 Disciplina: Processamento de Imagens
 Ano: 2026
