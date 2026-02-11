@@ -73,7 +73,7 @@ O sistema é capaz de:
 
 Link do YouTube (máx. 15 min):
 
-[Coloque aqui o link]
+?
 
 ---
 
