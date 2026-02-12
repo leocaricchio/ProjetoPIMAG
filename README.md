@@ -1,4 +1,4 @@
-# Detecção de Jogadores em Imagens de Futebol
+# Detecção de Jogadores/Árbitros em Imagens de Futebol
 
 ## Descrição
 
