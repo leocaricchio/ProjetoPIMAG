@@ -91,4 +91,4 @@ Link do YouTube (máx. 15 min):
 
 ## Autores
 
-Nomes: Felipe Ramos Santana e Leonardo Caricchio do Nascimento
+Felipe Ramos Santana e Leonardo Caricchio do Nascimento
