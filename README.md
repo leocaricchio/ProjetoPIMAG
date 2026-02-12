@@ -23,7 +23,6 @@ A abordagem consiste em:
 ├── notebooks/
 │   └── deteccao_jogadores.ipynb
 ├── data/
-│   └── imagens/
 │       └── IMG-20260209-WA0013.jpg
 ├── apresentacao.md
 └── README.md
@@ -43,6 +42,8 @@ Abra o notebook diretamente no Colab:
 
 https://colab.research.google.com/drive/1zUVjrqR6fIpAiv41_-o8lnBtvBMNdTWt?usp=sharing
 
+Após abrir, baixe uma das imagens presentes na pasta data/ deste repositório e rode as células do notebook de maneira sequencial, substituindo o caminho genérico da imagem pelo caminho da imagem baixada.
+
 ## Técnicas Utilizadas
 
 * Operações pixel a pixel
@@ -56,6 +57,17 @@ https://colab.research.google.com/drive/1zUVjrqR6fIpAiv41_-o8lnBtvBMNdTWt?usp=sh
 * Segmentação por cor
 * Rotulagem de componentes conexos
 * Análise geométrica de regiões
+
+---
+
+## Dataset
+
+Devido às limitações de técnicas a serem utilizadas,pois é preciso ser restrito ao que foi aprendido na disciplina,foi necessário reduzir o escopo do dataset original(roboflow) para que o programa funcionasse corretamente,utilizamos os seguintes parâmetros para escolher uma imagem:
+
+* Imagens mais focadas no centro do campo
+* Imagens com jogadores não muito próximos um do outro
+* Imagens com jogadores que não possuem vestimenta verde
+* Imagens com jogadores estáticos(sem uma ofuscação devido à movimentação)
 
 ---
 
