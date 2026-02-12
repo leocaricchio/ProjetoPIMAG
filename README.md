@@ -39,7 +39,7 @@ A abordagem consiste em:
 
 Abra o notebook diretamente no Colab:
 
-https://colab.research.google.com/drive/1zUVjrqR6fIpAiv41_-o8lnBtvBMNdTWt?usp=sharing
+(https://colab.research.google.com/github/leocaricchio/ProjetoPIMAG/blob/main/Trabalho_Final.ipynb#scrollTo=zq2IyWe2i4lP)
 
 Após abrir, baixe uma das imagens presentes na pasta data/ deste repositório e rode as células do notebook de maneira sequencial, substituindo o caminho genérico da imagem pelo caminho da imagem baixada.
 
