@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este projeto implementa um sistema de detecção de jogadores em imagens de partidas de futebol utilizando técnicas de Processamento Digital de Imagens.
+Este projeto implementa um sistema de detecção de Jogadores de linha/Árbitros em imagens de partidas de futebol utilizando técnicas de Processamento Digital de Imagens.
 
 A abordagem consiste em:
 
@@ -20,15 +20,14 @@ A abordagem consiste em:
 
 ```
 .
-├── notebooks/
-│   └── deteccao_jogadores.ipynb
+├── Trabalho_Final.ipynb/
 ├── data/
 │       └── IMG-20260209-WA0013.jpg
 ├── apresentacao.md
 └── README.md
 ```
 
-* **notebooks/**: código da solução em Jupyter Notebook
+* **Trabalho_Final/**: código da solução em Jupyter Notebook
 * **data/**: imagens utilizadas nos experimentos
 * **apresentacao/**: link para vídeo no youtube com a apresentação da solução
 
@@ -68,15 +67,15 @@ Devido às limitações de técnicas a serem utilizadas,pois é preciso ser rest
 * Imagens com jogadores não muito próximos um do outro
 * Imagens com jogadores que não possuem vestimenta verde
 * Imagens com jogadores estáticos(sem uma ofuscação devido à movimentação)
-
 ---
 
 ## Resultados
 
 O sistema é capaz de:
 
+* Ler uma Imagem
 * Remover o campo (segmentação do verde)
-* Detectar jogadores e bola
+* Detectar Jogadores/Árbitros
 * Gerar bounding boxes sobre os elementos de interesse
 
 ---
